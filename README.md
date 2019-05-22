@@ -53,6 +53,6 @@ flg===1 #go1
 flg===2 #go2
 flg===3 #go3
 flg===4 #go4
-1===1 #other
+flg===flg #other
 ---
 ```
