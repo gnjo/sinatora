@@ -17,10 +17,9 @@ lbl #back
 put x
 mes textdemo${st1}
 key flg1
-??? flg1
-a #xyz
-b #zzz
-* #back
+mov flg1===a #xyz
+mov flg1===b #zzz
+mov flg1===* #back
 ---
 lbl #xyz
 
