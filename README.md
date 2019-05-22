@@ -30,6 +30,7 @@ mov https://gnjo.github.io/xxxx.sin
 
 # first code
 lib value url
+
 def cmd script
 ```
 def set (a,b)=>{ sinatora.data[a]=void 0; sinatora.data[a]=b }
