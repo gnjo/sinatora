@@ -24,5 +24,6 @@ mov flg1===* #back
 lbl #xyz
 
 mes ${flg1}
+wai 1000
 mov https://gnjo.github.io/xxxx.sin
 ```
