@@ -16,6 +16,7 @@ set st1 'hi,there'
 lbl #back
 put x
 mes textdemo${st1}
+key flg1
 ??? flg1
 a #xyz
 b #zzz
