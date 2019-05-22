@@ -1,0 +1,2 @@
+# sinatora
+script lang
