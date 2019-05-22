@@ -56,3 +56,11 @@ flg===4 #go4
 flg===flg #other
 ---
 ```
+
+# error message
+stock the buffer
+```
+010| flg===1 #go1
+011| flg=2 #go2
+012| flg===3 #go3
+```
