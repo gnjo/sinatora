@@ -38,3 +38,21 @@ def mov (a,b)=>{ }
 def key (a,b)=>{ sinatora.frame.oninput=()=>{ ... } }
 def clr ()=>{ }
 ```
+
+# choice
+```
+mes
+1:xyz
+2:ddd
+3:ppp
+4:qqq
+---
+key flg
+mov 
+flg===1 #go1
+flg===2 #go2
+flg===3 #go3
+flg===4 #go4
+1===1 #other
+---
+```
