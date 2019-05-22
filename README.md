@@ -24,5 +24,5 @@ b #zzz
 lbl #xyz
 
 mes ${flg1}
-
+mov https://gnjo.github.io/xxxx.sin
 ```
