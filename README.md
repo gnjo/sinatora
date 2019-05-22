@@ -1,4 +1,4 @@
-# sinatora
+# sinatra
 script lang
 
 # target
