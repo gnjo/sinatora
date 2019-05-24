@@ -76,7 +76,7 @@ sinatra('#app')
 $0...$9
 ```
 
-# mulit to single
+# multi to single
 ```
 --- param 0 is multi
 set
