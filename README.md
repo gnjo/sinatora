@@ -118,8 +118,10 @@ info.message=013| lib https://gnjo.github.io/use.js
 info.walk=13
 info.output=void 0
 info.cmd='lib'
+info.iscmd=true
 info.param=['https://gnjo.github.io/use.js']
 info.code='lib https://gnjo.github.io/use.js'
+info.org='lib https://gnjo.github.io/use.js'
 ```
 
 
