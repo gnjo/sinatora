@@ -108,11 +108,15 @@ for(;walk<lines.length;walk++){
  iscmd(cmd)? cmdMap[cmd].call(this,o,line):error(walk+':'+line)
 }
 
-
-
-
-
 ```
+# info
+```
+sinatra(...).compiler(...,info)
 
+info.iserror=false
+info.message=001| lib https://gnjo.github.io/use.js
+info.walk=13
+info.output=void 0
+```
 
 
