@@ -71,6 +71,10 @@ sinatra('#app')
  .compile(str,(e)=>{ console.log(e.error,e.message,e.calc) }) 
 ```
 
+# memory
+```
+$0...$9
+```
 
 
 
