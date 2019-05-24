@@ -103,9 +103,9 @@ Object.keys(cmdMap).filter(d=>cmdMap[d].before).map(d=>cmdMap[d].call(this,o,lin
 let walk=0
 ;
 for(;walk<lines.length;walk++){
- let line=lines[walk]
- let cmd=line.split(' ').slice(0,1).pop()
- iscmd(cmd)? cmdMap[cmd].call(this,o,line):error(walk+':'+line)
+ let code=lines[walk]
+ let cmd=code.split(' ').slice(0,1).pop()
+ iscmd(cmd)? cmdMap[cmd].call(this,o,code):error(walk+':'+code)
 }
 
 ```
@@ -114,9 +114,12 @@ for(;walk<lines.length;walk++){
 sinatra(...).compiler(...,info)
 
 info.iserror=false
-info.message=001| lib https://gnjo.github.io/use.js
+info.message=013| lib https://gnjo.github.io/use.js
 info.walk=13
 info.output=void 0
+info.cmd='lib'
+info.param=['https://gnjo.github.io/use.js']
+info.code='lib https://gnjo.github.io/use.js'
 ```
 
 
