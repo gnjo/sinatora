@@ -64,3 +64,16 @@ stock the buffer
 011| flg=2 #go2
 012| flg===3 #go3
 ```
+
+# complie
+```js
+sinatra('#app')
+ .compile(str,(e)=>{ console.log(e.error,e.message,e.calc) }) 
+```
+
+
+
+
+
+
+
