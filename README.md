@@ -65,7 +65,7 @@ stock the buffer
 012| flg===3 #go3
 ```
 
-# complie
+# compile
 ```js
 sinatra('#app')
  .compile(str,(e)=>{ console.log(e.error,e.message,e.calc) }) 
