@@ -89,7 +89,30 @@ $0===3 #2
 ---
 ```
 
+# cmd map
+```
+let cmdMap={}
+cmdMap['lib']={before:(o,lines)=>{}, now:(o,line)=>{}, after:(o,line)=>{} }
+...
+```
+```
+let str='...'
+,lines =m2s(str) //multi to single
+Object.keys(cmdMap).filter(d=>cmdMap[d].before).map(d=>cmdMap[d].call(this,o,lines)
+;
+let walk=0
+;
+for(;walk<lines.length;walk++){
+ let line=lines[walk]
+ let cmd=line.split(' ').slice(0,1).pop()
+ iscmd(cmd)? cmdMap[cmd].call(this,o,line):error(walk+':'+line)
+}
 
+
+
+
+
+```
 
 
 
